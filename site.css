@@ -96,3 +96,7 @@ details p { color: var(--muted); margin: 10px 0 2px; }
   .band { text-align: center; justify-content: center; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+/* Lubb: back-link to the studio page */
+.lubb { display: inline-flex; align-items: center; gap: 6px; }
+.lubb svg { width: 16px; height: 16px; }
